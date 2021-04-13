@@ -1,0 +1,2637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1260</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_pix_512x512">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>1024</width>
+           <height>1024</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="minimumSize">
+       <size>
+        <width>281</width>
+        <height>541</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>281</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_map_256x256">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>256</width>
+         <height>256</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+/*
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+*/
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+/*
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:1px solid #8d394a;
+*/
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_map_wxh">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>256</width>
+         <height>256</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+/*
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+*/
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+/*
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:1px solid #8d394a;
+*/
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="minimumSize">
+       <size>
+        <width>411</width>
+        <height>531</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>411</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_rangeReview_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>350</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Диапазон обзора:</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_imageQuality_128">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>400</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>-1</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+    background-color: rgb(255,255,255);
+    border:1px solid #ba7f7f;
+}
+QRadioButton:hover {
+    background-color: rgb(250,250,250);
+    border:1px solid #8c3749;
+}
+
+QRadioButton::indicator {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;
+ }
+QRadioButton::indicator:hover {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749; 
+	border-image: url(:/new/prefix1/images/but2.png);
+ }
+
+QRadioButton::indicator:pressed {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;  
+    border-image: url(:/new/prefix1/images/but3.png);
+ }
+
+QRadioButton::indicator:checked {   
+	border-image: url(:/new/prefix1/images/but4.png);
+ }
+QRadioButton::indicator:checked:hover {
+    border-image: url(:/new/prefix1/images/but5.png);
+ }
+QRadioButton::indicator:checked:pressed {
+    border-image: url(:/new/prefix1/images/but6.png);
+ }
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>128</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_theAngleOfWrap">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>240</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="maximum">
+        <number>360</number>
+       </property>
+       <property name="value">
+        <number>90</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyC">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>10</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_key">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>110</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyGCW">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>50</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_key_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Нажата клавиша</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_offsetFromTheFloor_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Отступ от пола:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stepHypotenuse_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>330</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Шаг гипотенузы:</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_beamNumber">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:1px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="maximum">
+        <number>511</number>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_postHeightDivider_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Делитель высоты столба:</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_postHeightDivider">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>15</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_resizeXYGCW_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Размеры окна                         (resizeW,resizeH)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rateOfTurn_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Скорость поворота:</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_imageQuality">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>420</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="minimum">
+        <number>8</number>
+       </property>
+       <property name="maximum">
+        <number>1024</number>
+       </property>
+       <property name="value">
+        <number>512</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_lengthBeam_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>450</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Длина луча:</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_imageQuality_1024">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>400</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+    background-color: rgb(255,255,255);
+    border:1px solid #ba7f7f;
+}
+QRadioButton:hover {
+    background-color: rgb(250,250,250);
+    border:1px solid #8c3749;
+}
+
+QRadioButton::indicator {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;
+ }
+QRadioButton::indicator:hover {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749; 
+	border-image: url(:/new/prefix1/images/but2.png);
+ }
+
+QRadioButton::indicator:pressed {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;  
+    border-image: url(:/new/prefix1/images/but3.png);
+ }
+
+QRadioButton::indicator:checked {   
+	border-image: url(:/new/prefix1/images/but4.png);
+ }
+QRadioButton::indicator:checked:hover {
+    border-image: url(:/new/prefix1/images/but5.png);
+ }
+QRadioButton::indicator:checked:pressed {
+    border-image: url(:/new/prefix1/images/but6.png);
+ }
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>1024</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_imageQuality_yours">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>420</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+    background-color: rgb(255,255,255);
+    border:1px solid #ba7f7f;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}
+QRadioButton:hover {
+    background-color: rgb(250,250,250);
+    border:1px solid #8c3749;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}
+
+QRadioButton::indicator {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;
+ }
+QRadioButton::indicator:hover {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749; 
+	border-image: url(:/new/prefix1/images/but2.png);
+ }
+
+QRadioButton::indicator:pressed {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;  
+    border-image: url(:/new/prefix1/images/but3.png);
+ }
+
+QRadioButton::indicator:checked {   
+	border-image: url(:/new/prefix1/images/but4.png);
+ }
+QRadioButton::indicator:checked:hover {
+    border-image: url(:/new/prefix1/images/but5.png);
+ }
+QRadioButton::indicator:checked:pressed {
+    border-image: url(:/new/prefix1/images/but6.png);
+ }
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Своё:</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_offsetFromTheFloor">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>310</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>25</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyGCW_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Глобальные координаты окна      (xGCW,yGCW)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_stepHypotenuse">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>330</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QDoubleSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QDoubleSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QDoubleSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QDoubleSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QDoubleSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QDoubleSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QDoubleSpinBox::down-button:hover { 
+	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QDoubleSpinBox::down-button:pressed {
+	
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="maximum">
+        <double>1.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.050000000000000</double>
+       </property>
+       <property name="value">
+        <double>0.100000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_speedPlayer_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Скорость передвижения:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyGC">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>30</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_imageNumber">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>470</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>1</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyPlayer">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>90</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_imageQuality_32">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>420</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+    background-color: rgb(255,255,255);
+    border:1px solid #ba7f7f;
+}
+QRadioButton:hover {
+    background-color: rgb(250,250,250);
+    border:1px solid #8c3749;
+}
+
+QRadioButton::indicator {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;
+ }
+QRadioButton::indicator:hover {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749; 
+	border-image: url(:/new/prefix1/images/but2.png);
+ }
+
+QRadioButton::indicator:pressed {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;  
+    border-image: url(:/new/prefix1/images/but3.png);
+ }
+
+QRadioButton::indicator:checked {   
+	border-image: url(:/new/prefix1/images/but4.png);
+ }
+QRadioButton::indicator:checked:hover {
+    border-image: url(:/new/prefix1/images/but5.png);
+ }
+QRadioButton::indicator:checked:pressed {
+    border-image: url(:/new/prefix1/images/but6.png);
+ }
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>32</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyPlayer_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Координаты игрока                  (xPlayer,yPlayer)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_imageQuality_256">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>400</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+    background-color: rgb(255,255,255);
+    border:1px solid #ba7f7f;
+}
+QRadioButton:hover {
+    background-color: rgb(250,250,250);
+    border:1px solid #8c3749;
+}
+
+QRadioButton::indicator {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;
+ }
+QRadioButton::indicator:hover {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749; 
+	border-image: url(:/new/prefix1/images/but2.png);
+ }
+
+QRadioButton::indicator:pressed {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;  
+    border-image: url(:/new/prefix1/images/but3.png);
+ }
+
+QRadioButton::indicator:checked {   
+	border-image: url(:/new/prefix1/images/but4.png);
+ }
+QRadioButton::indicator:checked:hover {
+    border-image: url(:/new/prefix1/images/but5.png);
+ }
+QRadioButton::indicator:checked:pressed {
+    border-image: url(:/new/prefix1/images/but6.png);
+ }
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>256</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_offsetFromTheCeiling_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>290</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Отступ от потолка:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mapSize">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>150</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_resizeXYGCW">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>70</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_imageQuality_64">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>420</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+    background-color: rgb(255,255,255);
+    border:1px solid #ba7f7f;
+}
+QRadioButton:hover {
+    background-color: rgb(250,250,250);
+    border:1px solid #8c3749;
+}
+
+QRadioButton::indicator {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;
+ }
+QRadioButton::indicator:hover {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749; 
+	border-image: url(:/new/prefix1/images/but2.png);
+ }
+
+QRadioButton::indicator:pressed {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;  
+    border-image: url(:/new/prefix1/images/but3.png);
+ }
+
+QRadioButton::indicator:checked {   
+	border-image: url(:/new/prefix1/images/but4.png);
+ }
+QRadioButton::indicator:checked:hover {
+    border-image: url(:/new/prefix1/images/but5.png);
+ }
+QRadioButton::indicator:checked:pressed {
+    border-image: url(:/new/prefix1/images/but6.png);
+ }
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>64</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_corner">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>130</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_speedPlayer">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>200</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QDoubleSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QDoubleSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QDoubleSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QDoubleSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QDoubleSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QDoubleSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QDoubleSpinBox::down-button:hover { 
+	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QDoubleSpinBox::down-button:pressed {
+	
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="maximum">
+        <double>8.000000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>0.100000000000000</double>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>500</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+    background-color: rgb(233, 250, 255);
+	color: rgb(0, 0, 0);
+    border:1px solid #ba7f7f;
+}
+QPushButton:hover{
+background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, 
+                          stop:0 #e9faff, stop:1 #d2e2e6);
+}
+QPushButton:pressed{
+background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, 
+                          stop:0 #e9faff, stop:1 #b1bfc2);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Действие</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyC_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Координаты курсора на теле виджета   (xC,yC)  </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_rangeReview">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>350</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>50</number>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_imageQuality_512">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>400</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+    background-color: rgb(255,255,255);
+    border:1px solid #ba7f7f;
+}
+QRadioButton:hover {
+    background-color: rgb(250,250,250);
+    border:1px solid #8c3749;
+}
+
+QRadioButton::indicator {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;
+ }
+QRadioButton::indicator:hover {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749; 
+	border-image: url(:/new/prefix1/images/but2.png);
+ }
+
+QRadioButton::indicator:pressed {
+    width: 12px;
+    height: 12px;
+    margin: 1px 0px 1px 1px;
+    border:1px solid #8c3749;  
+    border-image: url(:/new/prefix1/images/but3.png);
+ }
+
+QRadioButton::indicator:checked {   
+	border-image: url(:/new/prefix1/images/but4.png);
+ }
+QRadioButton::indicator:checked:hover {
+    border-image: url(:/new/prefix1/images/but5.png);
+ }
+QRadioButton::indicator:checked:pressed {
+    border-image: url(:/new/prefix1/images/but6.png);
+ }
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>512</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_imageNumber_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>470</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Номер изображения:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_theAngleOfWrap_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>240</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Угол обхвата:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mapSize_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Размер карты                                          (w,h)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_lengthBeam">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>450</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QDoubleSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QDoubleSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:1px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QDoubleSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QDoubleSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QDoubleSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QDoubleSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QDoubleSpinBox::down-button:hover { 
+	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QDoubleSpinBox::down-button:pressed {
+	
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="decimals">
+        <number>2</number>
+       </property>
+       <property name="minimum">
+        <double>-999.000000000000000</double>
+       </property>
+       <property name="maximum">
+        <double>999.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_corner_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Угол центроального луча                    (aPlayer)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_xyGC_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Глобальные координаты курсора       (xGC,yGC)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_rateOfTurn">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>220</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="maximum">
+        <number>90</number>
+       </property>
+       <property name="value">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_offsetFromTheCeiling">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>290</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QSpinBox{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+ }
+QSpinBox:hover {
+	color: #000000;
+background-color: rgb(250,250,250);
+border:1px solid #943b49;
+border-top:1px solid #943b49;
+border-bottom:1px solid #943b49;
+border-left:0px solid #943b49;
+border-right:1px solid #943b49;
+ }
+
+
+QSpinBox::up-button {
+     subcontrol-origin: border;
+     subcontrol-position: top right; /* позиция - в верхнем правом углу */
+     width: 13px;
+     height: 8px;
+	border-image: url(:/new/prefix1/images/up11.png);
+     border-width: 1px;
+     margin: 0px 0px 1px 1px;
+ }
+QSpinBox::up-button:hover { 
+	border-image: url(:/new/prefix1/images/up12.png);
+ }
+QSpinBox::up-button:pressed {
+	border-image: url(:/new/prefix1/images/up13.png);
+ }
+
+
+
+QSpinBox::down-button {
+     subcontrol-origin: border;
+     subcontrol-position: bottom right; /* позиция - в нижнем правом углу */
+     width: 13px;
+     height: 8px;
+	 border-image: url(:/new/prefix1/images/down11.png);
+     border-width: 1px;
+     margin: 1px 0px 0px 1px;
+ }
+QSpinBox::down-button:hover { 	 
+	border-image: url(:/new/prefix1/images/down12.png);
+ }
+QSpinBox::down-button:pressed {
+	border-image: url(:/new/prefix1/images/down13.png);
+ }</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>25</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_imageQuality_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Качество изображения</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sizePlayingField">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>170</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:0px solid #ba7f7f;
+border-right:1px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:0px solid #8d394a;
+border-right:1px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sizePlayingField_info">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>281</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(255,255,255);
+border:1px solid #ba7f7f;
+border-top:1px solid #ba7f7f;
+border-bottom:1px solid #ba7f7f;
+border-left:1px solid #ba7f7f;
+border-right:0px solid #ba7f7f;
+}
+
+QLabel:hover{
+background-color: rgb(250,250,250);
+border:1px solid #8d394a;
+border-top:1px solid #8d394a;
+border-bottom:1px solid #8d394a;
+border-left:1px solid #8d394a;
+border-right:0px solid #8d394a;
+}</string>
+       </property>
+       <property name="text">
+        <string>Размер игрового поля</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

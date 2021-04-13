@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/but1.png</file>
+        <file>images/but2.png</file>
+        <file>images/but3.png</file>
+        <file>images/but4.png</file>
+        <file>images/but5.png</file>
+        <file>images/but6.png</file>
+        <file>images/Circle.jpg</file>
+        <file>images/Cross.jpg</file>
+        <file>images/down.png</file>
+        <file>images/down2.png</file>
+        <file>images/down3.png</file>
+        <file>images/down11.png</file>
+        <file>images/down12.png</file>
+        <file>images/down13.png</file>
+        <file>images/Square.jpg</file>
+        <file>images/Triangle.jpg</file>
+        <file>images/up.png</file>
+        <file>images/up2.png</file>
+        <file>images/up3.png</file>
+        <file>images/up11.png</file>
+        <file>images/up12.png</file>
+        <file>images/up13.png</file>
+    </qresource>
+</RCC>
